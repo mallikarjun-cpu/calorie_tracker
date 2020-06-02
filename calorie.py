@@ -131,7 +131,7 @@ def view_old(date):
 
 
 def connect_db():
-    sql = sqlite3.connect('sqlite3/food_log.db')
+    sql = sqlite3.connect('/home/arjun1995/calorie_tracker/food_log.db')
     sql.row_factory = sqlite3.Row
     return sql
 
